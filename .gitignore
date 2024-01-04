@@ -1,0 +1,3 @@
+# Godot 4+ specific ignores
+.godot/
+art/mystic_woods_free_2.1.zip
