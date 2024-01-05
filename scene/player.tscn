@@ -417,6 +417,7 @@ animations = [{
 radius = 7.0
 
 [node name="player" type="CharacterBody2D"]
+y_sort_enabled = true
 position = Vector2(-1, 2)
 script = ExtResource("1_3231b")
 
@@ -425,6 +426,7 @@ position = Vector2(1, -17)
 sprite_frames = SubResource("SpriteFrames_1w6r4")
 animation = &"front_idle"
 frame_progress = 0.452964
+offset = Vector2(0, -15)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, -2)
